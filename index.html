@@ -1,0 +1,84 @@
+<!--Proyecto de DIGITAL NAO 
+Cliente: Carolina Sada
+Objetivo: Generacion de Leads
+Modificado por: Cecilia Soto
+Fecha: 17 de marzo 2024-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Cecilia Soto">
+    <title>Carolina</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <section>
+      <div class="circle"></div>
+      <header>
+        <a href="">
+          <img src="./img/logo.png" class="logo" alt="" />
+        </a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>Balance the book<br /><span>Caro´s advice</span></h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
+            ratione obcaecati dolorum libero placeat maxime ducimus, eligendi
+            eum ut non sunt reprehenderit, harum excepturi deserunt porro vel
+            dolore, illo molestias.
+          </p>
+          <a href="#"> Learn More </a>
+        </div>
+        <div class="imgBox">
+          <svg img src="./img/img1.png" class="starbucks" alt="" ></svg>
+        </div>
+      </div>
+      <ul class="thumb">
+        <li>
+          <svg width="105px" height="105px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M719.8 651.8m-10 0a10 10 0 1 0 20 0 10 10 0 1 0-20 0Z" fill="#6e9277"></path><path d="M512.1 64H172v896h680V385.6L512.1 64z m278.8 324.3h-280v-265l280 265zM808 916H216V108h278.6l0.2 0.2v296.2h312.9l0.2 0.2V916z" fill="#374f59"></path><path d="M280.5 530h325.9v16H280.5z" fill="#374f59"></path><path d="M639.5 530h90.2v16h-90.2z" fill="#6e9277"></path><path d="M403.5 641.8h277v16h-277z" fill="#374f59"></path><path d="M280.6 641.8h91.2v16h-91.2z" fill="#6e9277"></path><path d="M279.9 753.7h326.5v16H279.9z" fill="#374f59"></path><path d="M655.8 753.7h73.9v16h-73.9z" fill="#6e9277"></path></g></svg>
+        </li>
+        <li>
+          <svg width="105px" height="105px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000" src="./img/thumb2.svg"
+          onclick="imgSlider('./img/img2.png'); changeCircleColor('#eb7495')"
+          alt=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M928.1 881v44H95.9V99h44v782z" fill="#374f59"></path><path d="M352 435.7v403.4H204V435.7h148m22-22H182v447.4h192V413.7zM608 307.9v531.2H460V307.9h148m22-22H438v575.2h192V285.9z" fill="#374f59"></path><path d="M866.1 177.3v663.9H714V177.3h152.1m20-20H694v703.9h192V157.3h0.1z" fill="#6e9277"></path></g>
+          </svg>
+        </li>
+        <li>
+          <svg width="105px" height="105px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000" src="./img/thumb3.svg"
+            onclick="imgSlider('./img/img3.png'); changeCircleColor('#d752b1')"
+            alt=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M429.9 186.7v406.4h407.5c-4 34.1-12.8 67.3-26.2 99.1-18.4 43.6-44.8 82.7-78.5 116.3-33.6 33.6-72.8 60-116.4 78.4-45.1 19.1-93 28.7-142.5 28.7-49.4 0-97.4-9.7-142.5-28.7-43.6-18.4-82.7-44.8-116.4-78.4-33.6-33.6-60-72.7-78.4-116.3-19.1-45.1-28.7-93-28.7-142.4s9.7-97.3 28.7-142.4c18.4-43.6 44.8-82.7 78.4-116.3 33.6-33.6 72.8-60 116.4-78.4 31.7-13.2 64.7-21.9 98.6-26m44-46.6c-226.4 0-410 183.5-410 409.8s183.6 409.8 410 409.8 410-183.5 410-409.8v-0.8h-410v-409z" fill="#374f59"></path><path d="M566.1 80.5c43.7 1.7 86.4 10.6 127 26.4 44 17.1 84.2 41.8 119.6 73.5 71.7 64.1 117.4 151.7 128.7 246.7 1.2 9.9 2 20 2.4 30.2H566.1V80.5m-16-16.3v409h410c0-16.3-1-32.3-2.9-48.1C933.1 221.9 760 64.2 550.1 64.2zM264.7 770.4c-23.1-23.1-42.3-49.1-57.3-77.7l-14.7 6.5c35.7 68.2 94 122.7 165 153.5l4.3-15.6c-36.3-16-69.1-38.4-97.3-66.7z" fill="#374f596e9277"></path></g></svg>
+          <img
+            
+          />
+        </li>
+      </ul>
+      <ul class="sci">
+        <li>
+          <a href="#"> <svg width="150px" height="150px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" stroke-width="3" stroke="#e0e6e0" fill="none" src="./img/tiktok.svg" alt=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M52.46,26.64c-1.15.25-4.74.65-9.7-2.41a.5.5,0,0,0-.77.42s0,10,0,13.33c0,2.68.15,20.4-17.16,18.42,0,0-13.68-1-13.68-16.33,0,0,.19-13.8,16.42-15a.51.51,0,0,1,.55.5V32.6a.48.48,0,0,1-.42.49c-1.9.27-9.54,1.8-8.69,8.77a7.19,7.19,0,0,0,7.37,6.3s7,.78,7.32-9V7.94a.51.51,0,0,1,.5-.5h6.88a.5.5,0,0,1,.49.41c.36,2,2.42,9.82,10.8,10.31a.5.5,0,0,1,.48.49v7.51A.48.48,0,0,1,52.46,26.64Z" stroke-linecap="round"></path></g></svg>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <svg width="150px" height="150px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" stroke-width="3" stroke="#e0e6e0" fill="none" src="./img/instagram.svg" alt=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><rect x="13.8" y="13.02" width="36.4" height="37.97" rx="10.53" stroke-linecap="round"></rect><circle cx="32" cy="32" r="9.28" stroke-linecap="round"></circle><circle cx="43.11" cy="19.74" r="1.32"></circle></g></svg>
+          </a>
+        </li>
+        <li>
+          <a href="#"><svg width="150px" height="150px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" stroke-width="3" stroke="#e0e6e9" fill="none" src="./img/linkedin.svg" alt=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M34.34,24.1H25.65V55.53h9V41.13c0-3.82.72-7.49,5.43-7.49s4.72,4.34,4.72,7.73V55.53h9V39.46c0-7.76-1.65-14.92-10.81-14.92-3.38-.13-6.65.49-8.47,3.25a.11.11,0,0,1-.21-.06Z" stroke-linecap="round"></path><path d="M10.92,24.1H20V55.53H10.92Z" stroke-linecap="round"></path><path d="M15.44,8.47a5.27,5.27,0,1,0,5.25,5.29v0A5.25,5.25,0,0,0,15.44,8.47Z" stroke-linecap="round"></path></g></svg>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <script type="text/javascript" src="./app.js"></script>
+  </body>
+</html>
