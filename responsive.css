@@ -1,0 +1,39 @@
+@media (max-width: 600px) {
+    html{
+    
+    background-position: 80%; }
+    
+.logotipo{    
+    width: 40%;
+}    
+
+#site-oficial{    
+    display: none;
+}
+    
+.primer-texto{
+    margin-top: 30px;
+    width: 80%;
+    margin-bottom: 20px;
+    }
+    
+.segundo-texto{    
+    margin-bottom: 20px;
+}
+
+}
+
+@media (min-width: 500px) and (max-width: 1451px){
+html{
+    background-position: 100%;    
+}    
+.primer-texto{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+}
+    
+    
+    
+    
